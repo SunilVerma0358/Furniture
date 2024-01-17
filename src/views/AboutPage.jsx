@@ -4,7 +4,7 @@ import WelcomeOur from "../components/WelcomeOur";
 import OurProduct from "../components/OurProduct";
 import ShoppingStore from "../components/ShoppingStore";
 import Footer from "../components/Footer";
-
+import BackToTop from "../components/BackToTop";
 const AboutPage = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const AboutPage = () => {
       <WelcomeOur />
       <ShoppingStore />
       <OurProduct />
-      <Footer />
+      <Footer /> <BackToTop />
     </>
   );
 };

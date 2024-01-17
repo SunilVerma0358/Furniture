@@ -157,7 +157,7 @@ const LatestDeal = () => {
 
           <button
             onClick={goToPrev}
-            className="bg-[#fff] rounded-[100px] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px] group shadow-[2px_7px_16px_#ecebeb] absolute top-[10%] 2xl:top-[60%] left-[-3%] 2xl:left-[-6%] hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
+            className="bg-[#fff] rounded-[100px] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px] group shadow-[2px_7px_16px_#ecebeb] absolute top-[10%] 2xl:top-[62%] left-[-3%] 2xl:left-[-7%] hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ const LatestDeal = () => {
           </button>
           <button
             onClick={goToNext}
-            className="bg-[#fff] rounded-[100px] absolute  top-[10%] 2xl:top-[60%] right-[-3%] 2xl:right-[-6%] group shadow-[2px_7px_16px_#ecebeb] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px]  hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
+            className="bg-[#fff] rounded-[100px] absolute  top-[10%] 2xl:top-[62%] right-[-3%] 2xl:right-[-7%] group shadow-[2px_7px_16px_#ecebeb] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px]  hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

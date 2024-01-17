@@ -31,6 +31,8 @@ class Testimonial extends Component {
       asNavFor: this.state.nav2,
       ref: (slider) => (this.slider1 = slider),
       arrows: false,
+      autoplay: true,
+      autoplaySpeed: 1000,
     };
 
     const sliderSettings2 = {
@@ -40,6 +42,8 @@ class Testimonial extends Component {
       swipeToSlide: true,
       focusOnSelect: true,
       arrows: false,
+      autoplay: true,
+      autoplaySpeed: 1000,
       responsive: [
         {
           breakpoint: 1024,
@@ -80,35 +84,35 @@ class Testimonial extends Component {
           </h2>
           <div className="pt-8">
             <Slider {...sliderSettings2}>
-              <div className="max-w-[264px]  mx-auto  ">
+              <div className="max-w-[264px] h-[160px]  mx-auto  ">
                 <img className="w-full " src={TestSectionFirstImg} alt="test" />
               </div>
-              <div className="max-w-[164px]   mx-auto ">
+              <div className="max-w-[164px] h-[160px]   mx-auto ">
                 <img className="w-full " src={TestSectionSecond} alt="test" />
               </div>
-              <div className="max-w-[148px]   mx-auto  ">
+              <div className="max-w-[148px]  h-[160px]  mx-auto  ">
                 <img className="w-full " src={TestSectionThree} alt="test" />
               </div>
-              <div className="max-w-[260px]   mx-auto  ">
+              <div className="max-w-[260px]  h-[160px]  mx-auto  ">
                 <img className="w-full " src={TestSectionFour} alt="test" />
               </div>
-              <div className="max-w-[258px]  mx-auto ">
+              <div className="max-w-[258px] h-[160px]  mx-auto ">
                 <img className="w-full " src={TestSectionFive} alt="test" />
               </div>
-              <div className="max-w-[193px]  mx-auto  ">
+              <div className="max-w-[193px] h-[160px]  mx-auto  ">
                 <img className="w-full " src={TestSectionFive} alt="test" />
               </div>
-              <div className="max-w-[181px]  mx-auto  ">
+              <div className="max-w-[181px] h-[160px]  mx-auto  ">
                 <img className="w-full " src={TestSectionSix} alt="test" />
               </div>
-              <div className="max-w-[181px] mx-auto  ">
+              <div className="max-w-[181px] h-[160px] mx-auto  ">
                 <img className="w-full " src={TestSectionLast} alt="test" />
               </div>
             </Slider>
           </div>
           <Slider {...sliderSettings1}>
             {" "}
-            <div className="text-center pt-[23px] ">
+            <div className="text-center sm:pt-[23px] ">
               <p className=" font-Poppins font-semibold text-[#000] text-[16px] sm:text-[18px]  leading-normal ">
                 Treepi Shoty
               </p>
@@ -155,6 +159,20 @@ class Testimonial extends Component {
                 Treepi Shoty
               </p>
               <p className=" font-Poppins  font-light text-[#000000b3] text-[12px] sm:text-[14px] leading-normal pb-3 ">
+                Teacher
+              </p>
+              <p className=" font-Poppins  font-light text-[#000] text-[12px] sm:text-[14px] leading-normal max-w-[350px] mx-auto text-center ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse feugiat nunc in leo vestibulum, at congue erat
+                accumsan. Suspendisse potenti. Suspendisse vitae vestibulum
+                sapien.
+              </p>
+            </div>
+            <div className="text-center pt-[23px] ">
+              <p className=" font-Poppins font-semibold text-[#000] text-[16px] sm:text-[18px]  leading-normal ">
+                Treepi Shoty
+              </p>
+              <p className=" font-Poppins  font-light text-[#000000b3] text-[12px] sm:text-[14px] leading-normal  pb-3">
                 Teacher
               </p>
               <p className=" font-Poppins  font-light text-[#000] text-[12px] sm:text-[14px] leading-normal max-w-[350px] mx-auto text-center ">

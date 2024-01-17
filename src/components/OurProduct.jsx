@@ -31,12 +31,10 @@ const OurProduct = () => {
           {MapCard.slice(show).map((props, index) => (
             <div
               key={index}
+              data-aos="fade-up"
               className="w-full sm:w-6/12 lg:w-4/12 px-3 xl:px-[13.50px] pt-[42px]"
             >
-              <div
-                data-aos="fade-up"
-                className="pt-[18px] pb-[26px] sm:pb-[53px] px-4 sm:px-[23px] lg:px-[15px] xl:px-[23px] bg-[#fff]  group hover:shadow-[6px_13px_38px_0px_#C4C4C4] transition-all duration-300 ease-linear"
-              >
+              <div className="pt-[18px] pb-[26px] sm:pb-[53px] px-4 sm:px-[23px] lg:px-[15px] xl:px-[23px] bg-[#fff]  group hover:shadow-[6px_13px_38px_0px_#C4C4C4] transition-all duration-300 ease-linear">
                 <div className="overflow-hidden">
                   <img
                     className="rounded-[5px] shadow-[0px_4px_4px_0px_#C4C4C4] group-hover:scale-[106%] transition-all duration-300 ease-linear"

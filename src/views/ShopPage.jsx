@@ -4,7 +4,7 @@ import WelcomeOur from "../components/WelcomeOur";
 import ShoppingStore from "../components/ShoppingStore";
 import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
-
+import BackToTop from "../components/BackToTop";
 const ShopPage = () => {
   return (
     <>
@@ -12,7 +12,7 @@ const ShopPage = () => {
       <WelcomeOur />
       <ShoppingStore />
       <Testimonial />
-      <Footer />
+      <Footer /> <BackToTop />
     </>
   );
 };

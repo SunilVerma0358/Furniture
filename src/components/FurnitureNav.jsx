@@ -3,6 +3,7 @@ import Logo from "../assets/image/logo.webp";
 import { Link, useLocation } from "react-router-dom";
 const FurnitureNav = () => {
   const location = useLocation();
+
   const [first, setfirst] = useState(false);
   function setopen() {
     setfirst(!first);
@@ -12,15 +13,21 @@ const FurnitureNav = () => {
       document.body.classList.remove("overflow");
     }
   }
+
+  const [data, setdata] = useState(true);
+  function InputImg() {
+    const newColor = data === "xyz" ? "otherColor" : "xyz";
+    setdata(newColor);
+  }
   return (
     <>
       <div className="max-w-[1320px] px-3 mx-auto h-[77px]">
         <nav className="flex justify-between items-center pt-[15px]">
           <div className="flex items-center gap-[7px]">
-            <img className="w-[61px] h-[61px]" src={Logo} alt="Logo" />
-            <h3 className=" font-Roboto font-bold text-[#fff] text-[24px] sm:text-[28px] md:text-[33.023px]  leading-normal ">
+            <img className="w-[61px] h-[61px]" src={Logo} alt="icon" />
+            <p className=" font-Roboto font-bold text-[#fff] text-[24px] sm:text-[28px] md:text-[33.023px]  leading-normal ">
               FURNITURE
-            </h3>
+            </p>
           </div>
           <div className="flex items-center max-[375px]:gap-[10px] gap-[40px]">
             <div
@@ -31,6 +38,7 @@ const FurnitureNav = () => {
               <div className="flex items-center gap-[30px] sm:gap-[40px] md:gap-[55px] flex-col lg:flex-row">
                 <Link
                   to={"/"}
+                  onClick={setopen}
                   className={`${
                     location.pathname === "/"
                       ? " font-bold webKit  relative before:absolute before:bg-[#BD7D41] before:w-full before:h-[3px] before:bottom-[-10px] before:left-0  before:transition-all duration-300"
@@ -41,6 +49,7 @@ const FurnitureNav = () => {
                 </Link>
                 <Link
                   to="/About"
+                  onClick={setopen}
                   className={`${
                     location.pathname === "/About"
                       ? " font-bold webKit relative before:absolute before:bg-[#BD7D41] before:w-full before:h-[3px] before:bottom-[-10px] before:left-0  before:transition-all duration-300"
@@ -51,6 +60,7 @@ const FurnitureNav = () => {
                 </Link>
                 <Link
                   to="/Shop"
+                  onClick={setopen}
                   className={`${
                     location.pathname === "/Shop"
                       ? " font-bold webKit relative before:absolute before:bg-[#BD7D41] before:w-full before:h-[3px] before:bottom-[-10px] before:left-0  before:transition-all duration-300"
@@ -61,6 +71,7 @@ const FurnitureNav = () => {
                 </Link>
                 <Link
                   to="/Contact"
+                  onClick={setopen}
                   className={`${
                     location.pathname === "/Contact"
                       ? " font-bold  webKit relative before:absolute before:bg-[#BD7D41] before:w-full before:h-[3px] before:bottom-[-10px] before:left-0  before:transition-all duration-300"
@@ -72,7 +83,30 @@ const FurnitureNav = () => {
               </div>
             </div>
             <div className="flex items-center max-[375px]:gap-2 gap-[28.29px]">
-              <span className="group cursor-pointer">
+              <div
+                className={`${
+                  data === "xyz"
+                    ? " right-100 px-3 border border-gray-300  bg-slate-500  "
+                    : "px-1 right-0  "
+                }  rounded-[10px] max-[640px]:max-w-[350px]  py-1 flex items-center max-[380px]:max-w-[280px] left-7 justify-between absolute  w-full md:right-[-100%] sm:static top-[8%] md:top-0 lg:h-unset lg:static lg:right-0 lg:bg-transparent z-10 transition-all ease-linear duration-300`}
+              >
+                <input
+                  type="search"
+                  placeholder="Search Bar"
+                  id="hi"
+                  className={`${
+                    data === "xyz"
+                      ? "px-2 w-full duration-600"
+                      : "w-0  duration-600"
+                  } outline-none text-white font-medium  transition-all duration-600 bg-transparent`}
+                />
+              </div>
+              <span
+                onClick={InputImg}
+                className="
+                  
+                   group cursor-pointer "
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="19"
@@ -87,6 +121,7 @@ const FurnitureNav = () => {
                   />
                 </svg>
               </span>
+
               <span className="group cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,9 +138,7 @@ const FurnitureNav = () => {
                 </svg>
               </span>
             </div>
-
             <input type="checkbox" id="mobileview" hidden />
-
             <div onClick={setopen}>
               {first ? (
                 <div className="flex lg:hidden flex-col relative z-50 justify-between w-[24px] h-[24px] cursor-pointer  ">

@@ -7,10 +7,6 @@
     right: -100%;
 }
 
-.overflow {
-    overflow: hidden;
-}
-
 .webKit {
     -webkit-text-stroke: 0.8px #fff;
 }
@@ -75,4 +71,10 @@
 
 .loader:nth-child(6) {
     animation-delay: 0.9s;
+}
+
+@media (max-width:1024px) {
+    .overflow {
+        overflow: hidden;
+    }
 }

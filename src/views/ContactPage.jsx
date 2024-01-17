@@ -3,6 +3,7 @@ import HeroSection from "../components/HeroSection";
 import WelcomeOur from "../components/WelcomeOur";
 import ShoppingStore from "../components/ShoppingStore";
 import Footer from "../components/Footer";
+import BackToTop from "../components/BackToTop";
 
 const ContactPage = () => {
   return (
@@ -10,7 +11,7 @@ const ContactPage = () => {
       <HeroSection />
       <WelcomeOur />
       <ShoppingStore />
-      <Footer />
+      <Footer /> <BackToTop />
     </>
   );
 };

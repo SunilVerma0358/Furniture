@@ -72,7 +72,7 @@ const Footer = () => {
                 <p className=" font-Roboto font-medium text-[#fff] text-[12px] sm:text-[14px] leading-normal relative  before:absolute before:-bottom-1 before:left-0 before:bg-[#BD7D41] before:w-full before:max-w-[130px]  before:h-[1px] ">
                   ABOUT STORE
                 </p>
-                <ul className="pt-[19px]">
+                <ul className="pt-4 sm:pt-[19px] ">
                   <li>
                     <Link
                       className="
@@ -82,22 +82,22 @@ const Footer = () => {
                       Home
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal  Footer_webkit">
                       Shop
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal  Footer_webkit">
                       Product
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal  Footer_webkit">
                       Festival Offer
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit">
                       Log In
                     </Link>
@@ -108,28 +108,28 @@ const Footer = () => {
                 <p className=" font-Roboto font-medium text-[#fff] text-[12px] sm:text-[14px] leading-normal relative  before:absolute before:-bottom-1 before:left-0 before:bg-[#BD7D41] before:w-full before:max-w-[130px]  before:h-[1px]  ">
                   BRANDS
                 </p>
-                <ul className="pt-[19px]">
+                <ul className="pt-4 sm:pt-[19px] ">
                   <li>
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Album
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Shop
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Product
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal  Footer_webkit">
                       Festival Offer
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit">
                       Log In
                     </Link>
@@ -140,28 +140,28 @@ const Footer = () => {
                 <p className=" font-Roboto font-medium text-[#fff] text-[12px] sm:text-[14px] leading-normal relative  before:absolute before:-bottom-1 before:left-0 before:bg-[#BD7D41] before:w-full before:max-w-[130px]  before:h-[1px]  ">
                   CATEGORIES
                 </p>
-                <ul className="pt-[19px]">
+                <ul className="pt-4 sm:pt-[19px] ">
                   <li>
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Single
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal  Footer_webkit">
                       Aleeper Sofas
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Accent Chairs
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit ">
                       Festival Offer
                     </Link>
                   </li>
-                  <li className="pt-[13px]">
+                  <li className="pt-[9px] sm:pt-[13px]">
                     <Link className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal Footer_webkit">
                       Log In
                     </Link>

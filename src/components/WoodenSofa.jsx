@@ -13,7 +13,7 @@ const WoodenSofa = () => {
                 Shopping Store
                 <span className=" before:h-[1px] before:bg-[#000] before:w-[75px] md:before:w-[95px] before:left-[1%] before:top-[15px] before:absolute"></span>
               </p>
-              <h2 className=" font-Poppins font-bold text-[#243040] text-[30px] lg:text-[32px] xl:text-[35px] leading-normal max-w-[436px] pt-[24px] pb-[27px] sm:pb-[40px] lg:pb-[53px]">
+              <h2 className=" font-Poppins font-bold text-[#243040] text-[30px] lg:text-[32px] xl:text-[35px] leading-normal  lg:max-w-[436px] pt-[24px] pb-[27px] sm:pb-[40px] lg:pb-[53px]">
                 Wooden Sofa Starts From{" "}
                 <span className="text-[31px] lg:text-[33.053px]">
                   ₹ 1200.00
