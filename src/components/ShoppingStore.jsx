@@ -85,14 +85,14 @@ const ShoppingStore = () => {
               data-aos="fade-up"
               className=" w-full lg:w-5/12 px-5 lg:px-3 flex  flex-col  lg:justify-end lg:max-w-[500px] "
             >
-              <p className=" font-Poppins font-normal text-[#BD7D41] text-[20px] leading-normal relative ps-[100px] sm:ps-[0] md:ps-[130px] text-center ">
+              <p className=" font-Poppins font-normal text-[#BD7D41] text-[20px] leading-normal relative ps-[130px] ">
                 Shopping Store
-                <span className=" before:h-[1px] before:bg-[#000] before:w-[95px] max-[400px]:before:left-[5%] max-[500px]:before:left-[10%] before:left-[20%] sm:before:left-[17%]  md:before:left-[30%] lg:before:left-[10%] before:top-[15px] before:absolute"></span>
+                <span className=" before:h-[1px] before:bg-[#000] before:w-[95px] before:left-[3%]   lg:before:left-[6%] before:top-[15px] before:absolute"></span>
               </p>
-              <h2 className=" font-Poppins font-bold text-[#243040] text-[30px] lg:text-[32px] xl:text-[35px] leading-normal lg:max-w-[436px] text-center lg:text-start pt-[18px] ">
+              <h2 className=" font-Poppins font-bold text-[#243040] text-[30px] lg:text-[32px] xl:text-[35px] leading-normal max-w-[436px] pt-[18px] ">
                 Buy trending furniture Products.
               </h2>
-              <p className=" font-Poppins font-nromal text-[#4D4D4D] sm:text-[16px] md:text-[18px] leading-normal lg:max-w-[422px] text-center lg:text-start  pt-[19px] pb-[34px]">
+              <p className=" font-Poppins font-nromal text-[#4D4D4D] sm:text-[16px] md:text-[18px] leading-normal max-w-[422px]  pt-[19px] pb-[34px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 faucibus, urna at pulvinar porta
               </p>

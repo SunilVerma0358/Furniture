@@ -4,6 +4,7 @@ import Button from "./common/Button";
 
 const WelcomeOur = () => {
   const [modal, setmodal] = useState(false);
+
   function Mymodal() {
     setmodal(!modal);
   }
@@ -14,14 +15,13 @@ const WelcomeOur = () => {
         {" "}
         <div
           className={` ${
-            modal ? "block" : "hidden"
-          } w-full h-full fixed bg-[#000000a3]  z-40 `}
-        ></div>
-        <div className="flex justify-center">
+            modal ? "flex" : "hidden"
+          } w-full min-h-screen left-0 top-0  justify-center items-center fixed bg-[#000000b9]  z-50 `}
+        >
           <div
             className={` ${
               modal ? "top-0 m-10" : "top-[-100%] m-0"
-            } fixed top-0 w-full sm:w-[600px]  h-[500px] rounded-[20px] duration-300 bg-gray-200 z-[60] px-3 mx-auto flex-col flex justify-center items-center`}
+            } fixed top-0 w-full sm:w-[600px]  h-[500px] rounded-[20px] duration-300 bg-gray-200 z-[40] px-3 mx-auto flex-col flex justify-center items-center`}
           >
             <iframe
               className=" w-full"
@@ -33,12 +33,14 @@ const WelcomeOur = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
             ></iframe>
-            <button
-              onClick={Mymodal}
-              className="text-base text-white hover:text-[#000] font-AzoSans font-normal duration-300 mt-5 hover:bg-white bg-[#000] border border-black px-3 py-2  rounded-[8px] "
-            >
-              Back
-            </button>
+            <div className="flex justify-end">
+              <button
+                onClick={Mymodal}
+                className="text-base text-white hover:text-[#000] font-AzoSans font-normal duration-300 mt-5 ms-auto hover:bg-white bg-[#000] border border-black px-3 py-2  rounded-[8px] "
+              >
+                Back
+              </button>
+            </div>
           </div>
         </div>
         <div className="max-w-[1320px] mx-auto px-3 pt-[40px] sm:pt-[70px] pb-[40px] md:pb-[70px] lg:pb-[260px]">
@@ -50,7 +52,7 @@ const WelcomeOur = () => {
               <div className="bg-layerStaite max-w-[416px] h-[300px]  md:h-[336px]  ">
                 <div className="shadow-[3px_8px_26px_0px_#C4C4C4] absolute top-[10%] xl:top-[15%] left-[12%]">
                   <img
-                    className=" w-full max-w-[456px] h-full"
+                    className=" w-full max-w-[456px] h-full max-[500px]:pe-2"
                     src={WelcomeOurStory}
                     alt="WelcomeOurStroy"
                   />

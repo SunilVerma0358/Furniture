@@ -17,7 +17,7 @@ const OurProduct = () => {
           Shopping Store
           <span className=" before:h-[1px] before:bg-[#000] before:w-[95px] before:left-[1%] before:top-[15px] before:absolute"></span>
         </p>
-        <div className="flex items-center max-[425px]:justify-center justify-between pt-[11px] flex-wrap ">
+        <div className="flex items-center  justify-between pt-[11px] flex-wrap ">
           <h2 className=" font-Poppins font-bold text-[#243040] text-[30px] lg:text-[32px] xl:text-[35px] leading-normal max-w-[436px]  ">
             Our Products
           </h2>

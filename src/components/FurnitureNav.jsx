@@ -25,11 +25,11 @@ const FurnitureNav = () => {
         <nav className="flex justify-between items-center pt-[15px]">
           <div className="flex items-center gap-[7px]">
             <img className="w-[61px] h-[61px]" src={Logo} alt="icon" />
-            <p className=" font-Roboto font-bold text-[#fff] text-[24px] sm:text-[28px] md:text-[33.023px]  leading-normal ">
+            <p className=" font-Roboto font-bold text-[#fff] text-[24px] sm:text-[28px] md:text-[33.023px] leading-normal ">
               FURNITURE
             </p>
           </div>
-          <div className="flex items-center max-[375px]:gap-[10px] gap-[40px]">
+          <div className="flex items-center max-[375px]:gap-[10px] gap-[25px]">
             <div
               className={`${
                 first ? "right-0" : "right-100"
@@ -97,7 +97,7 @@ const FurnitureNav = () => {
                   className={`${
                     data === "xyz"
                       ? "px-2 w-full duration-600"
-                      : "w-0  duration-600"
+                      : "w-0  duration-600 absolute"
                   } outline-none text-white font-medium  transition-all duration-600 bg-transparent`}
                 />
               </div>

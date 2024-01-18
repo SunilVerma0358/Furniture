@@ -4,7 +4,7 @@ import Button from "./common/Button";
 
 const HeroSection = () => {
   return (
-    <div className="bg-[url(../src/assets/image/HeroSectionBg.webp)] bg-cover bg-center h-[80vh]  md:h-screen flex flex-col ">
+    <div className="bg-[url(../src/assets/image/HeroSectionBg.webp)] bg-cover bg-center min-h-[80vh] md:pb-0  md:h-screen flex flex-col ">
       <div>
         <FurnitureNav />
       </div>
