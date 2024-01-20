@@ -32,7 +32,7 @@ class Testimonial extends Component {
       ref: (slider) => (this.slider1 = slider),
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 3000,
     };
 
     const sliderSettings2 = {
@@ -43,7 +43,7 @@ class Testimonial extends Component {
       focusOnSelect: true,
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 1000,
+      autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 1024,

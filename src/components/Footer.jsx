@@ -172,7 +172,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <p className=" font-Roboto font-normal text-[#fff] text-[12px] sm:text-[14px] leading-normal text-center  pt-[22px] sm:pt-[29px] pb-[20px] sm:pb-[27px] border-t border-t-[#91979F] ">
         @copyright{year}
       </p>

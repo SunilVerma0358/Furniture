@@ -33,7 +33,7 @@ const OurProduct = () => {
       <div
         className={`${
           data ? "left-0" : "left-[-100%]"
-        }  w-[75%] sm:w-[50%] lg:w-[35%] xl:w-[25%] h-full fixed overflow-y-scroll bg-gray-500 px-5  top-0 z-30 transition-all ease-linear duration-400`}
+        }  w-[75%] sm:w-[50%] lg:w-[35%] xl:w-[33%] 2xl:w-[27%] h-full fixed overflow-y-scroll bg-gray-500 px-5  top-0 z-30 transition-all ease-linear duration-400`}
       >
         <div className="relative">
           <button
@@ -48,7 +48,7 @@ const OurProduct = () => {
           </button>
           {cart.map((props, index) => (
             <div key={index} className=" pt-[48px]">
-              <div className="pt-[18px] pb-[26px] sm:pb-[53px] px-4 sm:px-[23px] lg:px-[15px] xl:px-[23px] bg-[#fff]  group hover:shadow-[6px_13px_38px_0px_#C4C4C4] transition-all duration-300 ease-linear">
+              <div className="pt-3  sm:pt-[18px] pb-[26px] sm:pb-[53px] px-3 sm:px-[23px] lg:px-[15px] xl:px-[23px] bg-[#fff]  group hover:shadow-[6px_13px_38px_0px_#C4C4C4] transition-all duration-300 ease-linear">
                 <div className="overflow-hidden">
                   <img
                     className="rounded-[5px] shadow-[0px_4px_4px_0px_#C4C4C4] group-hover:scale-[106%] transition-all duration-300 ease-linear"
@@ -62,10 +62,10 @@ const OurProduct = () => {
                   </p>
                   <img className="w-1/4" src={props.stargroupOne} alt="group" />
                 </div>
-                <p className=" font-Poppins font-normal text-[#4D4D4D] text-base sm:text-[18px] leading-normal pt-4 ">
+                <p className=" font-Poppins font-normal text-[#4D4D4D] text-base sm:text-[18px] leading-normal pt-3 sm:pt-4 ">
                   Lorem ipsum dolor{" "}
                 </p>
-                <div className="flex items-center justify-between flex-wrap gap-2 pt-4">
+                <div className="flex items-center justify-between flex-wrap gap-2 pt-3 sm:pt-4">
                   <p className="flex items-center gap-[3px] font-Poppins font-semibold text-[#000] text-[20px] sm:text-[24px] md:text-[28.667px] leading-normal  ">
                     ₹ <span>1200.00</span>
                   </p>
