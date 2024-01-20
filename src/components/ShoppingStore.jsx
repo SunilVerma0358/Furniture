@@ -98,7 +98,7 @@ const ShoppingStore = () => {
               </p>
               <div className="flex items-center gap-[14px] ">
                 <button
-                  onClick={goToPrev}
+                  onClick={goToNext}
                   className="bg-[#fff] rounded-[10px] group flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
                 >
                   <svg
@@ -116,7 +116,7 @@ const ShoppingStore = () => {
                   </svg>
                 </button>
                 <button
-                  onClick={goToNext}
+                  onClick={goToPrev}
                   className="bg-[#fff] rounded-[10px] group flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
                 >
                   <svg

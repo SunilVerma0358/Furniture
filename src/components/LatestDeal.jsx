@@ -82,7 +82,7 @@ const LatestDeal = () => {
           </h2>{" "}
           <div className="flex items-center gap-4 2xl:hidden">
             <button
-              onClick={goToPrev}
+              onClick={goToNext}
               className="bg-[#fff] rounded-[100px] w-[45px] sm:w-[70px] 2xl:w-[99px] h-[45px] sm:h-[70px] 2xl:h-[99px] group shadow-[2px_7px_16px_#ecebeb] 2xl:hidden flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
             >
               <svg
@@ -100,7 +100,7 @@ const LatestDeal = () => {
               </svg>
             </button>
             <button
-              onClick={goToNext}
+              onClick={goToPrev}
               className="bg-[#fff] rounded-[100px] 2xl:hidden group shadow-[2px_7px_16px_#ecebeb] w-[45px] sm:w-[70px] 2xl:w-[99px] h-[45px] sm:h-[70px] 2xl:h-[99px] flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
             >
               <svg
@@ -156,7 +156,7 @@ const LatestDeal = () => {
           </Slider>
 
           <button
-            onClick={goToPrev}
+            onClick={goToNext}
             className="bg-[#fff] rounded-[100px] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px] group shadow-[2px_7px_16px_#ecebeb] absolute top-[10%] 2xl:top-[62%] left-[-3%] 2xl:left-[-7%] hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
           >
             <svg
@@ -174,7 +174,7 @@ const LatestDeal = () => {
             </svg>
           </button>
           <button
-            onClick={goToNext}
+            onClick={goToPrev}
             className="bg-[#fff] rounded-[100px] absolute  top-[10%] 2xl:top-[62%] right-[-3%] 2xl:right-[-7%] group shadow-[2px_7px_16px_#ecebeb] w-[70px] 2xl:w-[99px] h-[70px] 2xl:h-[99px]  hidden 2xl:flex justify-center items-center py-[17px] px-[10px] hover:bg-[#BD7D41] transition-all duration-300 "
           >
             <svg
