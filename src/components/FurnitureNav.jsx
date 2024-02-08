@@ -23,12 +23,12 @@ const FurnitureNav = () => {
     <>
       <div className="max-w-[1320px] px-3 mx-auto h-[77px]">
         <nav className="flex justify-between items-center pt-[15px]">
-          <div className="flex items-center gap-[7px]">
+          <Link to="/" className="flex items-center gap-[7px] cursor-pointer">
             <img className="w-[61px] h-[61px]" src={Logo} alt="icon" />
             <p className=" font-Roboto font-bold text-[#fff] text-[24px] sm:text-[28px] md:text-[33.023px] leading-normal ">
               FURNITURE
             </p>
-          </div>
+          </Link>
           <div className="flex items-center max-[375px]:gap-[10px] gap-[25px]">
             <div
               className={`${
